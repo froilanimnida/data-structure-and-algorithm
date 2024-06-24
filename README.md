@@ -1,2 +1,2 @@
-# mosh-data-structure-and-algoritm
-code snippets for dsa pt 1
+# data-structure-and-algoritm
+this repository serves as my understanding to fundamental topics and things about data structure and algorithm
