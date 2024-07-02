@@ -65,3 +65,16 @@ end_time = time.time()
 elapsed_time_ms = (end_time - start_time) * 1000
 print(f"Time it takes to sort the lists in ms: {elapsed_time_ms}")
 print(f"Sorted list: {list_item}")
+
+
+def bubble_sort(collection):
+    while True:
+        swapped_item = False
+        for i in range(len(collection) - 1):
+            if collection[i] > collection[i + 1]:
+                swapped_item = True
+                collection[i], collection[i + 1] = collection[i + 1], collection[i]
+        if not swapped_item:
+            break
+    return collection
+
