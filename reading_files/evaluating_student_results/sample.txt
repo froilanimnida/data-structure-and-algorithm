@@ -1,0 +1,3 @@
+Anna		Boleyn		15.5
+John		Smith		7.0
+Andrew		Cox		1.5
