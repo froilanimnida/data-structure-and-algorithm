@@ -1,12 +1,6 @@
-class Snake:
-    def __init__(self, victims):
-        self.victims = victims
+from datetime import datetime
 
-    def increment(self):
-        self.victims += 1
+d = datetime(year=2019, month=11, day=4, hour=14, minute=53, second=00)
 
-
-x = Snake(victims=5)
-print(x.victims)
-x.increment()
-print(x.victims)
+print(d.date())
+print(d.time())
